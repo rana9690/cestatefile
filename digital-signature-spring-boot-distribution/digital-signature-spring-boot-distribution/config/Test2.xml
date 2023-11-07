@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BharatKoshPayment DepartmentCode="020" Version="1.0">
+   <Submit>
+      <OrderBatch TotalAmount="105" Transactions="1" merchantBatchCode="ENTRPB0122132342">
+         <Order InstallationId="10014" OrderCode="ENTRPB0122132342">
+            <CartDetails>
+               <Description>Application for Duplicate Certificate</Description>
+               <Amount CurrencyCode="INR" exponent="0" value="105" />
+               <OrderContent>757</OrderContent>
+               <PaymentTypeId>324</PaymentTypeId>
+               <PAOCode>028825</PAOCode>
+               <DDOCode>200726</DDOCode>
+            </CartDetails>
+            <PaymentMethodMask>
+               <Include Code="Online" />
+            </PaymentMethodMask>
+            <Shopper>
+               <ShopperEmailAddress />
+            </Shopper>
+            <ShippingAddress>
+               <Address>
+                  <FirstName>Suraj</FirstName>
+                  <LastName>singh</LastName>
+                  <Address1>karacgho</Address1>
+                  <Address2 />
+                  <PostalCode>208011</PostalCode>
+                  <City>ALAMPUR</City>
+                  <StateRegion>ALAMPUR</StateRegion>
+                  <State>ANDHRA PRADESH</State>
+                  <CountryCode>INDIA</CountryCode>
+                  <MobileNumber>8808740049</MobileNumber>
+               </Address>
+            </ShippingAddress>
+            <BillingAddress>
+               <Address>
+                  <FirstName>Suraj</FirstName>
+                  <LastName>singh</LastName>
+                  <Address1>karacgho</Address1>
+                  <Address2 />
+                  <PostalCode>208011</PostalCode>
+                  <City>ALAMPUR</City>
+                  <StateRegion>ALAMPUR</StateRegion>
+                  <State>ANDHRA PRADESH</State>
+                  <CountryCode>INDIA</CountryCode>
+                  <MobileNumber>8808740049</MobileNumber>
+               </Address>
+            </BillingAddress>
+            <StatementNarrative />
+         </Order>
+      </OrderBatch>
+   </Submit>
+</BharatKoshPayment>

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'dotsfont';
+    src: url("dist/dotsfont.eot");
+    src: url('dist/dotsfont.eot?#iefix') format('embedded-opentype'),
+    url('dist/dotsfont.woff') format('woff'),
+    url('dist/dotsfont.ttf') format('truetype'),
+    url('dist/dotsfont.svg#dotsfont') format('svg');
+}
+.mycustompassword {
+    font-family:'dotsfont';
+}

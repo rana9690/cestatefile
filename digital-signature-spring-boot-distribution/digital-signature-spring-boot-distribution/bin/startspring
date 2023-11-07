@@ -1,0 +1,1 @@
+./start_new.sh </dev/null & >/dev/null &
